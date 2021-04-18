@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+ /* Comments are made with a fowards slash and a star */
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;

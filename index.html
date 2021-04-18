@@ -35,6 +35,36 @@
 
         <!-- hero/jumbotron-->
         <section>
+            <div>
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult</p>
+                <!-- Form elements-->
+                    <form>
+                        <label for="name">Enter Full Name</label>
+                            <input type="text" placeholder="Your Name" name="name" id="name" />
+                        <label for="email"> Enter Email Address</label>
+                            <input type="email" placeholder="Email Address" name="email" id="email"/>
+                        <label for="phone-number">Enter Phone Number</label>
+                            <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+
+                        <p>
+                        Have you worked out with a trainer before?
+                                
+                                <input type="radio" id="trainer-yes" name="trainer-confirm">
+                                    <label for="trainer-yes">Yes</label>                            
+                                <input type="radio" id="trainer-no" name="trainer-confirm">
+                                    <label for="trainer-no">No</label>                               
+                        </p>
+
+                        <p>
+                           <label for="checkbox"> I acknowledge that I am at least 18 years of age.</label>
+                           <input type="checkbox" id="age-confirm" id="checkbox" />
+                        </p>
+                            <button type="submit">
+                                Get Running!
+                            </button>
+                     </form>
+            </div>
         </section>
 
         <!-- What we do section-->
@@ -58,9 +88,9 @@
         </section>
 
         <!-- footer-->
-        <footer>
-            <div>
+        <footer>   
             <h2>  ❤ Made with Love by Run Buddy </h2>
+            <div>
             <a href="#">Read our Privacy Policy</a><br />
             &copy; 2021 Run Buddy, Inc. 
             </div>
