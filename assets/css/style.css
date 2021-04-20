@@ -271,3 +271,8 @@ section {
 }
 
 /*Reach out end*/
+
+.hero-secondary{
+    background-color: black;
+    color: red;
+}
